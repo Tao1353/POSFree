@@ -22,5 +22,31 @@ Businesses need a way to keep track of inventory and transactions in an efficien
   <li>Owner Login Page: Asks for Email,Password, and special owner code with a forgot password button below the login info</li>
   <li>Employee Login Page: Asks for Email and password  with a forgot password button below the login info
 </li>
+<li>Forgot password page: asks for email to then send reset password link
+</li>
+<li>Reset password page: reset password then go back to login page
+</li>
+<li>New Owner Page: Asks for name, email, password, and if they are the owner of a new shop or current shop</li>
+<li>New Employee Page: Asks for name, email, password, and shop join pin</li>
+<li>Shops Page: shows all the shops that the person is involved with (include edit shops button to remove/add shops)
+</li>
+<li>Individual Shop</li>
+<ol> 
+  <li> Main page: has shop’s title on top, with buttons below it to inventory, calendar, staff, and transactions 
+</li>
+  <li>Inventory: shows stock of each type of item, with a edit inventory button to add/remove stock and item types </li>
+  <li>Transactions: shows transaction history of shop with a edit transactions button to add/remove transactions</li>
+  <li>staff (for owners only): shows all staff members with a edit staff button to add/remove staff 
+</li>
+  <li>Calendar: shows the calendar for the current month with buttons to daily,weekly,monthly,quarterly,and annually reports 
+</li> 
+  <ul>
+    <li>Report page: shows transactions,inventory, and loss/gain made during the time period on a google sheet like format with the ability to print and shared 
+</li>
+  </ul>
+</ol>
+<li>New Shop: asks for shop name, shop type, and items that will be sold (with prices and current stock) and employees.
+</li>
   
 </ol>
+<h2>User Workflow</h2>
