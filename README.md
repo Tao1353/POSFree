@@ -15,5 +15,12 @@ Businesses need a way to keep track of inventory and transactions in an efficien
   <li>Calendar with Daily,Weekly,Monthly,Quarterly, and Annually reports on inventory and transactions</li>
   <li>A reminders notification system for transactions needed to be made and what items need to be restocked
 </li>
-
 </ul>
+<h2>WireFrame</h2>
+<ol>
+  <li>Home Page: With POSFree (title)  on top with Free POS for Businesses (smaller than title)  below it, space in between will be the following buttons: owner login, employee login, new owner, new employee </li>
+  <li>Owner Login Page: Asks for Email,Password, and special owner code with a forgot password button below the login info</li>
+  <li>Employee Login Page: Asks for Email and password  with a forgot password button below the login info
+</li>
+  
+</ol>
