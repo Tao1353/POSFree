@@ -1,7 +1,7 @@
 # POSFree
 A Free POS App for businesses
 <h2>Abstract </h2>
-Businesses need a way to keep track of inventory and transactions in an efficient and timely manner. The use of manual tally marking with paper takes too long and is not organized enough to keep track of all the businesses hassles of today’s world. POSFREE is a new POS that allows business owners keep track of their inventory and transactions all in one place online at a low cost
+Businesses need a way to keep track of inventory and transactions in an efficient and timely manner. The use of manual tally marking with paper takes too long and is not organized enough to keep track of transactions and inventory.
 <h2>Goals</h2>
 <ul>
   <li>Have a easy to access POS with inventory tracking and transactions</li>
@@ -18,7 +18,7 @@ Businesses need a way to keep track of inventory and transactions in an efficien
 </ul>
 <h2>WireFrame</h2>
 <ol>
-  <li>Home Page: With POSFree (title)  on top with Free POS for Businesses (smaller than title)  below it, space in between will be the following buttons: owner login, employee login, new owner, new employee </li>
+  <li>Home Page: With POSFree (title)  on top with Free POS for Businesses (smaller than title)  below it, space in between will be the following buttons: owner login, employee login, new owner, new employee</li>
   <li>Owner Login Page: Asks for Email,Password, and special owner code with a forgot password button below the login info</li>
   <li>Employee Login Page: Asks for Email and password  with a forgot password button below the login info
 </li>
@@ -32,7 +32,7 @@ Businesses need a way to keep track of inventory and transactions in an efficien
 </li>
 <li>Individual Shop</li>
 <ol> 
-  <li> Main page: has shop’s title on top, with buttons below it to inventory, calendar, staff, and transactions 
+  <li> Main page: has shop's title on top, with buttons below it to inventory, calendar, staff, and transactions 
 </li>
   <li>Inventory: shows stock of each type of item, with a edit inventory button to add/remove stock and item types </li>
   <li>Transactions: shows transaction history of shop with a edit transactions button to add/remove transactions</li>
@@ -49,4 +49,86 @@ Businesses need a way to keep track of inventory and transactions in an efficien
 </li>
   
 </ol>
+
 <h2>User Workflow</h2>
+
+### Owner Workflow
+
+1. **Registration & Login**
+   - Click "New Owner" on the home page
+   - Enter name, email, and password
+   - Choose to create a new shop or join an existing one
+   - Log in with email and password
+
+2. **Create a New Shop**
+   - Navigate to "New Shop" after login
+   - Enter shop name, shop type, and business category
+   - Add at least one item type with pricing and initial stock
+   - Add at least one employee (can be yourself)
+   - Confirm shop creation
+
+3. **Manage Inventory**
+   - Go to the shop's main page and select "Inventory"
+   - View current stock levels for all items
+   - Click "Edit Inventory" to:
+     - Add new item types with prices
+     - Update stock quantities
+     - Remove items from inventory
+   - Track inventory history for auditing
+
+4. **Process Transactions**
+   - Select "Transactions" from the shop dashboard
+   - View complete transaction history
+   - Click "Add Transaction" to process sales
+   - Edit or remove transactions as needed
+   - Track transaction records by date and employee
+
+5. **Manage Staff**
+   - Select "Staff" from the shop dashboard (owners only)
+   - View all employees associated with the shop
+   - Click "Edit Staff" to:
+     - Add new employees (provide them with shop join PIN)
+     - Remove employees from the shop
+     - Update employee roles and permissions
+
+6. **Generate Reports**
+   - Navigate to "Calendar" section
+   - Select desired reporting period:
+     - Daily reports
+     - Weekly reports
+     - Monthly reports
+     - Quarterly reports
+     - Annually reports
+   - View transaction totals, inventory changes, and profit/loss
+   - Print or share reports with team members
+
+### Employee Workflow
+
+1. **Registration & Login**
+   - Click "New Employee" on the home page
+   - Enter name, email, and password
+   - Provide the shop join PIN (provided by shop owner)
+   - Log in with email and password
+
+2. **Access Your Shop(s)**
+   - View all shops you are assigned to
+   - Select a shop to access its dashboard
+
+3. **Process Transactions**
+   - Select "Transactions" from the shop dashboard
+   - View transaction history
+   - Add new transactions when processing sales
+   - Cannot edit or remove transactions (owner permission required)
+
+4. **View Inventory**
+   - Select "Inventory" from the shop dashboard
+   - View current stock levels
+   - Cannot make changes to inventory (owner permission required)
+   - Use this for reference when assisting customers
+
+5. **Check Notifications**
+   - Receive reminders for:
+     - Pending transactions that need to be recorded
+     - Items that need to be restocked
+     - Other shop-related alerts
+
