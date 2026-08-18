@@ -1,0 +1,35 @@
+{
+  "name": "POSFree Development",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "features": {
+    "ghcr.io/azure/azure-dev/azd:latest": {}
+  },
+  "forwardPorts": [5000, 8000],
+  "portsAttributes": {
+    "5000": {
+      "label": "Application",
+      "onAutoForward": "notify"
+    },
+    "8000": {
+      "label": "API",
+      "onAutoForward": "notify"
+    }
+  },
+  "postCreateCommand": "pip install -r requirements.txt",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.azure-account",
+        "ms-azure-tools.azure-dev",
+        "ms-python.python",
+        "ms-python.vscode-pylance"
+      ],
+      "settings": {
+        "python.linting.enabled": true,
+        "python.linting.pylintEnabled": true,
+        "python.formatting.provider": "black"
+      }
+    }
+  },
+  "remoteUser": "vscode"
+}
